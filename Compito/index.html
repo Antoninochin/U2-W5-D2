@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget</title>
+  </head>
+  <body style="background-color: aquamarine">
+    <h1 style="text-align: center">Il Tuo Budget <i class="far fa-money-bill-alt"></i></h1>
+    <!-- <button onclick="budget()">Click Here for know your budget</button> -->
+    <!-- <div id="seeBudget"></div> -->
+    <select id="budget-select">
+      <option>Please ask me a question</option>
+      <option value="budgetAttuale">Budget Attuale</option>
+      <option value="budgetSuccessivo">Budget Successivo</option>
+      <option value="budgetFinale">Budget Finale</option>
+    </select>
+    <button onclick="view()">View</button>
+    <div id="screen"></div>
+    <script src="./JS/script.js"></script>
+    <script src="https://kit.fontawesome.com/85d2f65af1.js" crossorigin="anonymous"></script>
+  </body>
+</html>
