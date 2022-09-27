@@ -27,7 +27,11 @@ function view(){
 }
 
 function budget(){
-     
+     let budget = 100
+     while(budget > 50){
+        
+        numero++
+     }
 }
 
 
